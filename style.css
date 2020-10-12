@@ -1,0 +1,248 @@
+body {
+    background-color: #191919;
+    font-family: Roboto;
+    color: white;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+.quadro-logo-1 {
+    margin-top: 60px;
+}
+
+.quadro-mt-40 {
+    margin-top: 40px;
+}
+
+.quadro-title-1 {
+    font-size: 55px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 40px;
+}
+
+.quadro-title-2 {
+    font-size: 29px;
+    font-weight: 500;
+}
+.quadro-title-2 span {
+    color: #FFAA00;
+}
+
+.quadro-title-3 {
+    color: #FFAA00;
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.quadro-title-4 {
+    font-size: 38px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.quadro-title-5 {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 33px;
+    margin-top: 100px;
+}
+
+.quadro-title-5 span {
+    font-weight: bold;
+    color: #FFAA00;
+}
+
+.quadro-title-6 {
+    text-transform: uppercase;
+    text-align: start;
+    color: #FFAA00;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 35px;
+    margin-left: 10px;
+}
+.quadro-title-6 span{
+    color: white;
+    font-size: 33px;
+    font-weight: 300;
+}
+
+.quadro-title-7 {
+    font-weight: 900;
+    font-size: 44;
+}
+
+.quadro-title-7 span {
+ color: #FFAA00;   
+}
+
+.quadro-subtitle-1 {
+    color: #FFAA00;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.quadro-subtitle-2 {
+    font-size: 29px;
+    margin-bottom: 0px;
+}
+
+.quadro-subtitle-3 {
+    font-size: 38px;
+    font-weight: 900;
+    font-style: italic;
+    color: #FFAA00;
+    line-height: 28px;
+}
+
+.quadro-paragraph {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+.quadro-paragraph-2 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.quadro-phrase {
+    font-size: 25px;
+    font-weight: 100;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.quadro-video-1 {
+    margin-top: 30px;
+}
+
+.quadro-btn {
+    border: 2px solid #FFAA00;
+    background-color: #FFAA00;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-weight: 900;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+.quadro-btn:hover {
+    color: #FFAA00;
+    background-color: unset;
+}
+
+.quadro-section {
+    margin-top: 120px;
+}
+
+.quadro-person {
+    margin-top: 40px;
+}
+
+.quadro-socials {
+    display: flex;
+    justify-content: center;
+}
+
+.quadro-socials img{
+    margin: 20px;
+}
+
+.quadro-table {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.quadro-card {
+    background-color: #262626;
+    border-radius: 30px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.quadro-card-title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+.quadro-card-title span {
+    font-weight: 500;
+}
+
+.quadro-card-body {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.quadro-card-divisor {
+    margin: 10px;
+}
+
+.quadro-margin-top {
+    margin-top: 45px;
+}
+
+.quadro-choices {
+    justify-content: start;
+    display: flex;
+    align-items: center;
+}
+
+.quadro-depo-text {
+    text-align: start;
+    margin: 15px 12px;
+}
+
+.quadro-depo-name {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 17px;
+}
+.quadro-depo-name span{
+    font-weight: 500;
+}
+
+.quadro-depo-body {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 20px;
+    line-height: 23px;
+}
+
+.quadro-timer {
+    border: solid 4px #FFAA00;
+    border-radius: 17px;
+    padding: 5px 10px;
+    width: min-content;
+    display: inline-block;
+    font-size: 49px;
+    margin-top: 10px;
+}
+
+.quadro-text {
+    font-size: 29px;
+    margin-top: 15px;
+}
+
+.quadro-margin-bottom {
+    margin-bottom: 40px;
+}
