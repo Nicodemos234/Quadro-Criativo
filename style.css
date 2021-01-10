@@ -97,6 +97,23 @@ p {
     color: #FFAA00;
 }
 
+.quadro-title-8 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FFAA00;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    line-height: 35px;
+    margin-left: 10px;
+}
+
+.quadro-title-8 span {
+    color: white;
+    font-size: 33px;
+    font-weight: 300;
+}
+
 .quadro-subtitle-1 {
     color: #FFAA00;
     font-size: 24px;
@@ -147,9 +164,9 @@ p {
     background-color: #FFAA00;
     color: white;
     border-radius: 8px;
-    padding: 10px 15px;
+    padding: 5px 15px;
     font-weight: 900;
-    font-size: 26px;
+    font-size: 24px;
     margin-top: 20px;
 }
 
@@ -217,9 +234,15 @@ p {
 }
 
 .quadro-choices {
-    justify-content: start;
+    justify-content: center;
     display: flex;
     align-items: center;
+    text-align: center;
+    flex-flow: column;
+}
+
+.quadro-choices img {
+    margin-bottom: 20px;
 }
 
 .quadro-depo-text {
@@ -275,21 +298,29 @@ p {
 .quadro-arrow-bottom img {
     opacity: 1;
     animation: fadeinout 1.5s ease infinite;
- }
- 
- @keyframes fadeinout {
-    0% {
-       opacity: 0;
-    }
+}
 
+@keyframes fadeinout {
+    0% {
+        opacity: 0;
+    }
     50% {
         opacity: 1;
     }
- 
     100% {
-       opacity: 0;
+        opacity: 0;
     }
- }
+}
+
+.quadro-design-text {
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: 300;
+}
+
+.quadro-design-text b {
+    font-weight: 900;
+}
 
 /* Responsivity */
 
