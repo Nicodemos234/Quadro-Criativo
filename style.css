@@ -4,12 +4,24 @@ body {
     color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     margin-bottom: 0px;
 }
 
+.section-1-logo {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .quadro-logo-1 {
-    margin-top: 60px;
+    max-width: 1000px;
 }
 
 .quadro-mt-40 {
@@ -27,6 +39,7 @@ p {
     font-size: 29px;
     font-weight: 500;
 }
+
 .quadro-title-2 span {
     color: #FFAA00;
 }
@@ -67,7 +80,8 @@ p {
     line-height: 35px;
     margin-left: 10px;
 }
-.quadro-title-6 span{
+
+.quadro-title-6 span {
     color: white;
     font-size: 33px;
     font-weight: 300;
@@ -79,7 +93,7 @@ p {
 }
 
 .quadro-title-7 span {
- color: #FFAA00;   
+    color: #FFAA00;
 }
 
 .quadro-subtitle-1 {
@@ -156,7 +170,7 @@ p {
     justify-content: center;
 }
 
-.quadro-socials img{
+.quadro-socials img {
     margin: 20px;
 }
 
@@ -217,7 +231,8 @@ p {
     font-weight: 300;
     line-height: 17px;
 }
-.quadro-depo-name span{
+
+.quadro-depo-name span {
     font-weight: 500;
 }
 
@@ -246,6 +261,34 @@ p {
 .quadro-margin-bottom {
     margin-bottom: 40px;
 }
+
+.quadro-arrow-bottom {
+    display: block;
+    margin-top: 30px;
+}
+
+.quadro-arrow-bottom img {
+    width: 39.5px;
+}
+
+.quadro-arrow-bottom img {
+    opacity: 1;
+    animation: fadeinout 1.5s ease infinite;
+ }
+ 
+ @keyframes fadeinout {
+    0% {
+       opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+ 
+    100% {
+       opacity: 0;
+    }
+ }
 
 /* Responsivity */
 
@@ -282,7 +325,7 @@ p {
         font-size: 30px;
         text-align: center;
     }
-    .quadro-title-6 span{
+    .quadro-title-6 span {
         font-size: 30px;
     }
     .quadro-choices {
