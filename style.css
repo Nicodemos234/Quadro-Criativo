@@ -4,6 +4,7 @@ body {
     color: white;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
@@ -312,6 +313,15 @@ p {
     100% {
         opacity: 0;
     }
+}
+
+.quadro-projects a {
+    color: white !important;
+}
+
+.quadro-projects a:hover {
+    color: white !important;
+    text-decoration: unset !important;
 }
 
 .quadro-design-text {
